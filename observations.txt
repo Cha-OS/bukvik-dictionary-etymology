@@ -1,0 +1,142 @@
+English Stats - Sentence Length
+english-stats-sentence-length
+$.{data}['stats.results']{[*]}.SimpleStats{["sentenceLength"]}.ALL{['RESULT_ITEMS_COUNT', 'RESULT_HITS_COUNT']}
+
+http://www-01.sil.org/iso639-3/download.asp
+http://www-01.sil.org/iso639-3/
+
+Multiple Languages:
+	fro - Old French
+	
+	eng: solitude	rel:etymology	fro: solitude
+
+Endings
+	eng: -ic	rel:etymology	fra: -ique
+	->	fra: -ique	rel:etymology	nld: -icus
+		-> nld = Dutch
+
+Beginings
+	eng: unsupportable	rel:etymology	eng: supportable
+	eng: unsupportable	rel:etymology	eng: un-
+	->
+		eng: un-	rel:etymology	enm: on-
+		->
+			enm: on-	rel:etymology	ang: on-
+			enm: on-	rel:etymology	ang: ond-
+
+		eng: un-	rel:etymology	enm: un-
+		->
+			enm: un-	rel:etymology	ang: un-
+		eng: un-	rel:etymology	lat: unus
+		->
+			lat: unus	rel:etymology	lat: oinos
+
+Depth
+	eng: Abraham	rel:etymology	lat: Abraham
+	-> lat: Abraham	rel:etymology	grc: Ἀβραάμ
+		-> grc: Ἀβραάμ	rel:etymology	heb: אברהם
+
+Multiple entries
+	eng: Aaronic	rel:etymology	eng: -ic
+	->	eng: -ic	rel:etymology	fra: -ique
+	eng: Aaronic	rel:etymology	eng: Aaron
+
+Bug cycles
+	fra: pointer
+		fra: pointer	rel:etymology	eng: pointer
+		fra: pointer	rel:etymology	fra: -er
+		fra: pointer	rel:etymology	fra: point
+		->
+			fra: point	rel:etymology	frm: poinct
+			->	frm: poinct	rel:etymology	fra: point
+			fra: point	rel:etymology	lat: punctus
+
+Bug missing
+	ang: scyldwite	rel:etymology	ang: -
+,
+				"french": [
+					"acf	Saint Lucian Creole French	Creole French, Saint Lucian",
+					"crs	Seselwa Creole French	Creole French, Seselwa",
+					"fra	French	French",
+					"frc	Cajun French	French, Cajun",
+					"frm	Middle French (ca. 1400-1600)	French, Middle (ca. 1400-1600)",
+					"fro	Old French (842-ca. 1400)	French, Old (842-ca. 1400)",
+					"fsl	French Sign Language	French Sign Language",
+					"gcf	Guadeloupean Creole French	Creole French, Guadeloupean",
+					"gcr	Guianese Creole French	Creole French, Guianese",
+					"kmv	Karipúna Creole French	Creole French, Karipúna",
+					"lou	Louisiana Creole French	Creole French, Louisiana",
+					"rcf	Réunion Creole French	Creole French, Réunion",
+					"scf	San Miguel Creole French	Creole French, San Miguel",
+					"sfb	French Belgian Sign Language	French Belgian Sign Language",
+					"ssr	Swiss-French Sign Language	Swiss-French Sign Language"					
+				]
+				"russian": [
+					"orv	Old Russian	Russian, Old",
+					"rsl	Russian Sign Language	Russian Sign Language",
+					"rus	Russian	Russian"
+				]
+
+				"english": [
+					"aig	Antigua and Barbuda Creole English	Creole English, Antigua and Barbuda",
+					"ang	Old English (ca. 450-1100)	English, Old (ca. 450-1100)",
+					"bah	Bahamas Creole English	Creole English, Bahamas",
+					"bzj	Belize Kriol English	Kriol English, Belize",
+					"bzk	Nicaragua Creole English	Creole English, Nicaragua",
+					"cpi	Chinese Pidgin English	Pidgin English, Chinese",
+					"eng	English	English",
+					"enm	Middle English (1100-1500)	English, Middle (1100-1500)",
+					"fpe	Fernando Po Creole English	Creole English, Fernando Po",
+					"gcl	Grenadian Creole English	Creole English, Grenadian",
+					"gpe	Ghanaian Pidgin English	Pidgin English, Ghanaian",
+					"gul	Sea Island Creole English	Creole English, Sea Island",
+					"gyn	Guyanese Creole English	Creole English, Guyanese",
+					"hwc	Hawai'i Creole English	Creole English, Hawai'i",
+					"icr	Islander Creole English	Creole English, Islander",
+					"jam	Jamaican Creole English	Creole English, Jamaican",
+					"lir	Liberian English	English, Liberian",
+					"svc	Vincentian Creole English	Creole English, Vincentian",
+					"tch	Turks And Caicos Creole English	Creole English, Turks And Caicos",
+					"tgh	Tobagonian Creole English	Creole English, Tobagonian",
+					"trf	Trinidadian Creole English	Creole English, Trinidadian",
+					"vic	Virgin Islands Creole English	Creole English, Virgin Islands"
+				],
+				"german": [
+					"deu	German	German",
+					"gct	Colonia Tovar German	German, Colonia Tovar",
+					"geh	Hutterite German	German, Hutterite",
+					"gmh	Middle High German (ca. 1050-1500)	German, Middle High (ca. 1050-1500)",
+					"gml	Middle Low German	German, Middle Low",
+					"goh	Old High German (ca. 750-1050)	German, Old High (ca. 750-1050)",
+					"gsg	German Sign Language	German Sign Language",
+					"gsw	Swiss German	German, Swiss",
+					"nds	Low German	German, Low",
+					"pdc	Pennsylvania German	German, Pennsylvania",
+					"sgg	Swiss-German Sign Language	Swiss-German Sign Language"					
+				],
+				"italian": [
+					"ise	Italian Sign Language	Italian Sign Language",
+					"ita	Italian	Italian",
+					"itk	Judeo-Italian	Judeo-Italian",
+					"slf	Swiss-Italian Sign Language	Swiss-Italian Sign Language"
+				],
+				"polish": [
+					"pol	Polish	Polish",
+					"pso	Polish Sign Language	Polish Sign Language",
+				],
+				"yiddish": [
+					"ydd	Eastern Yiddish	Yiddish, Eastern",
+					"yid	Yiddish	Yiddish",
+					"yih	Western Yiddish	Yiddish, Western"
+				],
+				"latin": [
+					"lat	Latin	Latin"
+				],
+				"greek": [
+					"cpg	Cappadocian Greek	Greek, Cappadocian",
+					"ell	Modern Greek (1453-)	Greek, Modern (1453-)",
+					"gmy	Mycenaean Greek	Greek, Mycenaean",
+					"grc	Ancient Greek (to 1453)	Greek, Ancient (to 1453)",
+					"gss	Greek Sign Language	Greek Sign Language",
+					"rge	Romano-Greek	Romano-Greek"
+				]
