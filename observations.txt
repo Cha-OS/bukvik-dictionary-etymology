@@ -5,6 +5,10 @@ $.{data}['stats.results']{[*]}.SimpleStats{["sentenceLength"]}.ALL{['RESULT_ITEM
 http://www-01.sil.org/iso639-3/download.asp
 http://www-01.sil.org/iso639-3/
 
+Serbian:
+	hbs: 
+	deu: Vampir	rel:etymology	hbs: vampir
+
 Multiple Languages:
 	fro - Old French
 	
